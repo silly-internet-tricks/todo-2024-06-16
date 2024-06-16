@@ -15,5 +15,6 @@ INSERT INTO user VALUES (
   hashed_password,
   NOW()
 );
+SELECT LAST_INSERT_ID();
 END //
 DELIMITER ;

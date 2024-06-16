@@ -19,5 +19,6 @@ INSERT INTO task VALUES (
   creator_id,
   0 -- 0 for false https://stackoverflow.com/a/289759/13920055
 );
+SELECT LAST_INSERT_ID();
 END //
 DELIMITER ;

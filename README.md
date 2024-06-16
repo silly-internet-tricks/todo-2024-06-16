@@ -89,10 +89,12 @@ If you are a task owner (this includes members of a group which owns a task), yo
  * EC2 free tier hosting in fresh AWS account
 
 ## Next Steps
- 1. add the actual web server
+ 1. define the rest api endpoints
  
 
 ## Additional Notes (for future reference)
  *  use like xampp or wamp for manage maria db and phpmyadmin or any other client (for some future project)
  * what is inner join? what is outer join?
-   * in inner join 
+   * in inner join rows are simply omitted from the result when there is no matching id
+   * in outer join rows are included in the result even if there is no matching id
+ * Find a place to use a "boolean array" in the project

@@ -13,5 +13,6 @@ INSERT INTO list VALUES (
   NOW(),
   creator_id
 );
+SELECT LAST_INSERT_ID();
 END //
 DELIMITER ;
