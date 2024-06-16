@@ -89,8 +89,8 @@ If you are a task owner (this includes members of a group which owns a task), yo
  * EC2 free tier hosting in fresh AWS account
 
 ## Next Steps
- 3. npm init
- 4. add the actual web server
+ 1. add the actual web server
+ 
 
 ## Additional Notes (for future reference)
  *  use like xampp or wamp for manage maria db and phpmyadmin or any other client (for some future project)
