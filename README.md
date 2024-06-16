@@ -87,3 +87,6 @@ If you are a task owner (this includes members of a group which owns a task), yo
      * minimal HTML/CSS
      * Use standard browser APIs
  * EC2 free tier hosting in fresh AWS account
+
+## Additional Notes (for future reference)
+ *  use like xampp or wamp for manage maria db and phpmyadmin or any other client (for some future project)
