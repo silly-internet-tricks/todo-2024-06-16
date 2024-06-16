@@ -1,5 +1,7 @@
 CREATE TABLE list_join (
-  `list_id_1` int foreign key references list(id),
-  `list_id_2` int foreign key references list(id),
-  `date_added` date
+  `list_id_1` int,
+  `list_id_2` int,
+  `date_added` date,
+   foreign key (list_id_1) references list(id),
+   foreign key (list_id_2) references list(id)
 );
