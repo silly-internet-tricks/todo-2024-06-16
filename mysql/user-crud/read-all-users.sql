@@ -1,0 +1,7 @@
+USE todo_2024_06_16;
+DELIMITER //
+CREATE PROCEDURE read_all_users()
+BEGIN
+    SELECT * FROM user;
+END //
+DELIMITER ;

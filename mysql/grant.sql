@@ -1,0 +1,4 @@
+GRANT ALL PRIVILEGES
+ON todo_2024_06_16.*
+TO 'josh'@'localhost'
+WITH GRANT OPTION;
