@@ -89,7 +89,6 @@ If you are a task owner (this includes members of a group which owns a task), yo
  * EC2 free tier hosting in fresh AWS account
 
 ## Next Steps
- 2. add the actual database procedures
  3. npm init
  4. add the actual web server
 

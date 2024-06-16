@@ -1,0 +1,28 @@
+{
+  "name": "todo-2024-06-16",
+  "version": "1.0.0",
+  "description": "A BASIC TODO APPLICATION",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silly-internet-tricks/todo-2024-06-16.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Josh Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silly-internet-tricks/todo-2024-06-16/issues"
+  },
+  "homepage": "https://github.com/silly-internet-tricks/todo-2024-06-16#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.5.0",
+    "typescript-eslint": "^7.13.0"
+  }
+}
