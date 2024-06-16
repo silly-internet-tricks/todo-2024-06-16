@@ -37,3 +37,9 @@ mysql < mysql/task-crud/update-task-due-date.sql
 mysql < mysql/task-crud/update-task-name.sql
 mysql < mysql/task-crud/read-all-assigned-tasks.sql
 mysql < mysql/task-crud/read-all-owned-tasks.sql
+
+mysql < mysql/list-crud/add-list-to-list.sql
+mysql < mysql/list-crud/add-task-to-list.sql
+mysql < mysql/list-crud/create-list.sql
+mysql < mysql/list-crud/read-all-user-lists.sql
+mysql < mysql/list-crud/read-list.sql

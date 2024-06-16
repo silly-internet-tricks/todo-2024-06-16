@@ -95,3 +95,5 @@ If you are a task owner (this includes members of a group which owns a task), yo
 
 ## Additional Notes (for future reference)
  *  use like xampp or wamp for manage maria db and phpmyadmin or any other client (for some future project)
+ * what is inner join? what is outer join?
+   * in inner join 
