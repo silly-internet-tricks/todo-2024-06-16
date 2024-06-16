@@ -1,3 +1,4 @@
+USE todo_2024_06_16;
 CREATE TABLE comment (
   `id` int primary key,
   `content` varchar(2000),

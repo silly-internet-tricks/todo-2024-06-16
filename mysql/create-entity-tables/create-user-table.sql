@@ -1,3 +1,4 @@
+USE todo_2024_06_16;
 CREATE TABLE user (
   `id` int primary key,
   `unique_name` varchar(100),

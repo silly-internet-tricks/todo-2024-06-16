@@ -1,3 +1,4 @@
+USE todo_2024_06_16;
 CREATE TABLE group_admin (
   `user_id` int,
   `group_id` int,

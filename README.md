@@ -91,7 +91,8 @@ If you are a task owner (this includes members of a group which owns a task), yo
 ## Next Steps
  1. add setup script for database
  2. add the actual database procedures
- 3. add the actual web server 
+ 3. npm init
+ 4. add the actual web server
 
 ## Additional Notes (for future reference)
  *  use like xampp or wamp for manage maria db and phpmyadmin or any other client (for some future project)

@@ -1,3 +1,4 @@
+USE todo_2024_06_16;
 CREATE TABLE list_join (
   `list_id_1` int,
   `list_id_2` int,

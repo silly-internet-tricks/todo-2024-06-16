@@ -1,3 +1,4 @@
+USE todo_2024_06_16;
 CREATE TABLE task_list (
   `task_id` int,
   `list_id` int,
