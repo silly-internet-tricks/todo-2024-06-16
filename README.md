@@ -35,8 +35,8 @@
   * last_modified_date
   * due_date
   * completion_date (Note: is complete status is determined by completion_date being not null)
-  * assigned_to (user)
-  * owned_by (group or user)
+  * assignee_id (user)
+  * owner_id (group or user)
   * is_archived
 
 ## Join Tables

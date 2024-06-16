@@ -7,9 +7,9 @@ CREATE TABLE task (
   `last_modified_date` datetime,
   `due_date` datetime,
   `completion_date` datetime,
-  `assigned_to` int,
-  `owned_by` int,
+  `assignee_id` int,
+  `owner_id` int,
   `is_archived` boolean,
-   foreign key (assigned_to) references user(id),
-   foreign key (owned_by) references user(id)
+   foreign key (assignee_id) references user(id),
+   foreign key (owner_id) references user(id)
 );

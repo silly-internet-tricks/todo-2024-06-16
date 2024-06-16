@@ -25,3 +25,15 @@ mysql < mysql/user-crud/update-unique-username.sql
 mysql < mysql/user-crud/update-user-description.sql
 mysql < mysql/user-crud/update-user-password.sql
 mysql < mysql/user-crud/validate-user-password.sql
+
+mysql < mysql/task-crud/archive-task.sql
+mysql < mysql/task-crud/complete-task.sql
+mysql < mysql/task-crud/create-task.sql
+mysql < mysql/task-crud/delete-task-permanently.sql
+mysql < mysql/task-crud/reassign-task.sql
+mysql < mysql/task-crud/transfer-task-ownership.sql
+mysql < mysql/task-crud/update-task-description.sql
+mysql < mysql/task-crud/update-task-due-date.sql
+mysql < mysql/task-crud/update-task-name.sql
+mysql < mysql/task-crud/read-all-assigned-tasks.sql
+mysql < mysql/task-crud/read-all-owned-tasks.sql
