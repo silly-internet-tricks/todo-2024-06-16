@@ -94,6 +94,7 @@ If you are a task owner (this includes members of a group which owns a task), yo
    1. add forms for creating and editing all the records
    2. display the records
    3. we will need cookies for session state
+ 3. deploy to EC2 free tier
  
 
 ## Additional Notes (for future reference)
