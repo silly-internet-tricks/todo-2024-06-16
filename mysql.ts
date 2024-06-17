@@ -1,19 +1,22 @@
-import mysql from "mysql";
-import dotenv from "dotenv";
+const mysql = require("mysql");
+require("dotenv").config();
 
 const connection = mysql.createConnection({
   host: "localhost",
   user: "josh",
-  password: dotenv["MYSQL_PASSWORD"],
+  password: process.env["MYSQL_PASSWORD"],
   database: "todo_2024_06_16",
+  charset: "utf8mb4",
 });
 
 const promiseQuery = (queryString, paramArray) => {
   return new Promise((solve, ject) => {
     connection.query(queryString, paramArray, (error, results, fields) => {
-      console.log(error, results, fields);
       if (error) ject(error);
-      solve(results);
+      const firstResult = results[0];
+      const firstRowData = firstResult[0];
+      const lastInsertId = firstRowData['LAST_INSERT_ID()'];
+      solve(lastInsertId);
     });
   });
 };
