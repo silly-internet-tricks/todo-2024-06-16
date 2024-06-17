@@ -88,8 +88,12 @@ If you are a task owner (this includes members of a group which owns a task), yo
      * Use standard browser APIs
  * EC2 free tier hosting in fresh AWS account
 
-## Next Steps
- 1. define the rest api endpoints
+## Next Steps (for next week)
+ 1. define the remaining rest api endpoints
+ 2. create the client
+   1. add forms for creating and editing all the records
+   2. display the records
+   3. we will need cookies for session state
  
 
 ## Additional Notes (for future reference)
